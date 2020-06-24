@@ -9,6 +9,9 @@ import argparse
 
 token="your token"
 
+__author__      = "cococou"
+__copyright__   = "Copyright 2020, cococou"
+
 #curl -X GET "https://demo.oncokb.org/api/v1/annotate/mutations/byProteinChange?hugoSymbol=BRAF&alteration=V600E&tumorType=Melanom" -H "accept: application/json"
 #curl -X GET "https://www.oncokb.org/api/v1/annotate/mutations/byProteinChange?hugoSymbol=BRAF&entrezGeneId=673&alteration=V600E&consequence=missense_variant&proteinStart=600&proteinEnd=600&tumorType=Melanoma&evidenceType=GENE_SUMMARY%2C%20MUTATION_SUMMARY" -H "accept: application/json" -H "Authorization: Bearer [token]"
 
